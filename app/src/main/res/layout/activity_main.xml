@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Converter"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/inputNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number here" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONVERT"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Results will appear here" />
+
+</LinearLayout>
